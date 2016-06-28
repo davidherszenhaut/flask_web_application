@@ -6,4 +6,4 @@ Source code for my personal web application (website) building using Python 3, H
 This was my first dive into any sort of web development and I used it to familiarize myself with the basics of HTML5 and CSS3. I decided to use Flask to deploy this website instead of using just HTML5 and CSS3 because I had some prior experience using Python and wanted to incoorporate that into the project.
 
 
-The website can be found [here](http://davidherszenhaut.pythonanywhere.com/ "flask_web_application")
+The website can be found [here](http://davidherszenhaut.pythonanywhere.com/ "flask_web_application").
