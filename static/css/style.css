@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+/*@font-face {
+	font-family: "Font Name";
+	src:;
+}*/
+
+body.a {
+	background-color: #A9A9A9;
+}
+
+h1.a {
+	font-family: "Poppins";
+	margin: 0;
+	color: #FFFFFF;
+}
+
+h1.b {
+	font-family: "Poppins";
+	color: #000000;
+}
+
+h2.a {
+	font-family: "Poppins";
+}
+
+p.a {
+	font-family: "Poppins";
+	font-size: 20px;
+}
+
+p.b {
+	font-family: "Poppins";
+	font-size: 15px;
+	text-indent: 30px;
+}
+
+ul.a {
+	font-family: "Poppins";
+}
+
+ul.b {
+	font-family: "Poppins";
+}
+
+li.a {
+	font-family: "Poppins";
+}
+
+hr.a {
+	border: 0px;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+b.a {
+	font-family: "Poppins";
+	font-size: 20px;
+}
+
+i.a {
+	font-family: "Poppins";
+	font-size: 18px;
+}
+
+a.a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#container {
+	background-color: #A9A9A9;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-color: #4D4D4D;
+	text-align: center;
+	padding: 10px;
+}
+
+#content {
+	padding: 10px;
+}
+
+#navigation {
+	width: 200px;
+	height: 500px;
+	float: left;
+}
+
+#navigation ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+#main {
+	width: 700px;
+	height: 500px;
+	float: right;
+	text-align: left;
+}
+
+#footer {
+	padding: 50px 20px 20px 20px;
+	clear: both;
+	font-family: "Poppins";
+}
+
+#copyright {
+	width: 300px;
+	float: left;
+	text-align: left
+}
+
+#time {
+	width: 300px;
+	float: right;
+	text-align: right;
+}
+
+#returnHome {
+	text-align: center;
+}
+
+#resumeEducation {
+	font-family: "Poppins";
+}
+
+#resumeExperience {
+	font-family: "Poppins";
+}
+
+#resumeSkills {
+	font-family: "Poppins";
+}

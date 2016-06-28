@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Homepage</title>
+		<link type = "text/css" rel = "stylesheet" href = "{{url_for('static', filename = 'css/style.css') }}"/>
+		<link type = "image/x-icon" rel = "shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}"/>
+	</head>
+	<script>
+	function startTime() {
+		var today = new Date();
+		var h = today.getHours();
+		var m = today.getMinutes();
+		var s = today.getSeconds();
+		m = checkTime(m);
+		s = checkTime(s);
+		document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
+		var t = setTimeout(startTime, 500);
+	}
+	function checkTime(i) {
+		if (i < 10) {i = "0" + i};
+		return i;
+	}
+	</script>
+	<body class = "a" onload = "startTime()">
+		<div id = "container">
+			<div id = "header">
+				<h1 class = "a">Welcome to my homepage.</h1>
+			</div>
+			<div id = "content">
+				<div id = "navigation">
+					<p class = "a">Try the following URL extensions to see more pages:</p>
+					<ul class = "a">
+						<li><a class = "a" href = "about">/about</a></li>
+						<li><a class = "a" href = "resume">/r&eacute;sum&eacute;</a></li>
+						<li><a class = "a" href = "hobbies">/hobbies</a></li>
+						<li><a class = "a" href = "contact">/contact</a></li>
+					</ul>
+				</div>
+				<div id = "main">
+					<p class = "a">
+						I am a third-year undergraduate student at the Georgia Institute of Technology, currently majoring in Chemical and Biomolecular Engineering. I was born in Atlanta, and have lived in Brussels and Philadelphia. My passion is bioengineering and I hope that I can find a job that allows me to conduct research to help others.
+					</p>
+				</div>
+			</div>
+			<div id = "footer">
+				<div id = "copyright">
+					Copyright &copy; 2016 David Herszenhaut
+				</div>
+				<div id = "time">
+					<div id = "txt"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
